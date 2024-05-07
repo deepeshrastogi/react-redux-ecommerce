@@ -10,7 +10,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<ProductListing />} />
-          <Route path="/product/:productId" element={<ProductDetail />} />
+          <Route path="/products/:productId" element={<ProductDetail />} />
           <Route>404 not found!</Route>
         </Routes>
       </Router>
